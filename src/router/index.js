@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 // import Posts from '@/components/Posts'
 // import Comments from '@/components/Comments'
-// import Albums from '@/components/Albums'
+import Albums from '@/components/Albums'
 // import Photos from '@/components/Photos'
 // import Todos from '@/components/Todos'
 // import Users from '@/components/Users'
@@ -27,11 +27,11 @@ export default new Router({
     //   name: 'Comments',
     //   component: Comments
     // },
-    // {
-    //   path: '/albums',
-    //   name: 'Albums',
-    //   component: Albums
-    // },
+    {
+      path: '/albums',
+      name: 'Albums',
+      component: Albums
+    },
     // {
     //   path: '/photos',
     //   name: 'Photos',
