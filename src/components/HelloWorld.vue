@@ -28,6 +28,7 @@
         </a>
       </li>
       <li>
+        <input class='input' />
         <a
           href="https://twitter.com/vuejs"
           target="_blank"
