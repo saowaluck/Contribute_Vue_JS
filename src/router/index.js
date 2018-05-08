@@ -5,7 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 // import Comments from '@/components/Comments'
 // import Albums from '@/components/Albums'
 // import Photos from '@/components/Photos'
-// import Todos from '@/components/Todos'
+import Todos from '@/components/Todos'
 // import Users from '@/components/Users'
 
 Vue.use(Router)
@@ -37,11 +37,11 @@ export default new Router({
     //   name: 'Photos',
     //   component: Photos
     // },
-    // {
-    //   path: '/todos',
-    //   name: 'Todos',
-    //   component: Todos
-    // },
+    {
+      path: '/todos',
+      name: 'Todos',
+      component: Todos
+    },
     // {
     //   path: '/users',
     //   name: 'Users',
